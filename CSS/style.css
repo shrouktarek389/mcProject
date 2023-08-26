@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+}
+.nav{
+    width: 100%;
+}
+.container{
+    width:1024px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 130px;
+    margin: 14px;
+}
+.nav ul{
+    float: right;
+    display: flexbox;
+}
+.nav li{
+    display: inline-block;
+}
+.nav .l1{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 25px 20px;
+}
+.nav a:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border-bottom: 5px solid rgb(76, 116, 190);
+}
+.nav li:hover{
+    clip-path: polygon(0% 100% ,100% 100%,100% 70% , 60% 70%,50% 40% ,40% 70%,0% 70%);
+}
+.search{
+    background-color: coral;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.blog:hover{
+    padding: 25px 20px;
+}
+.blog{
+    background-color: coral;
+    color: white;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.nav h4{
+    float: right;
+    margin:22px 0px 35px 50px ;
+}
+.clearfix{
+    clear: both;
+}
+
+
+.header{
+    background:rgba(0,0,0,0.7)url("../Imgs/bg.jpg") ;
+    background-blend-mode:darken;
+    text-align: center;
+    color: white;
+    background-size:100% 100%;
+ 
+    position: relative;
+}
+.header h1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.header button{
+    margin-top: 50px ;
+    margin-bottom: 200px;
+    background-color: coral;
+    padding: 10px 45px;
+    cursor: pointer;
+    color: white;
+}
+
+.device{
+    width:150px;
+    background-color: dodgerblue;
+    padding: 10px;
+    position: absolute;
+    left: 663px;
+    bottom: -15px;
+}
+.scrol{
+    position: absolute;
+    left: 1350px;
+    bottom: 20px;
+}
+
+
+
+.icon{
+    font-size: 66px;
+    background-color: cornflowerblue;
+    width: 110px;
+    height: 105px;
+    border-radius: 50%;
+    color: white;
+    line-height: 100px;
+}
+.d1{
+    width: 250px;
+    text-align: center;
+}
+.content1 .container{
+    display:flex ;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.content2 , .footer , .pro1{
+    background-color: rgb(11, 35, 54);
+}
+
+.content2 h1{
+    display: inline-block;
+    float: left;
+    padding-top: 50px;
+    color: coral;
+}
+.content2 button{
+    float: right;
+    margin-top: 50px;
+    padding: 5px 30px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.content2 h4{
+    color: coral;
+}
+
+.content2 img{
+    width: 250px;
+    border: 10px solid white;
+}
+.content2 .p1{
+    margin-left: 20px;
+}
+.pic{
+    display: flex;
+    padding: 50px 0px;
+}
+.content2 p{
+    color: white;
+}
+
+.content3{
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 40px;
+}
+:root{
+    --color: rgb(95, 146, 240);
+}
+.content3 h4 ,.content3 h1{
+    color: var(--color);
+}
+.content3 button{
+    background-color: var(--color);
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    margin-left: 130px;
+    border-color: var(--color);
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--color);
+}
+.c{
+    display: flex;
+    padding-top: 40px;
+}
+.c div{
+    margin-left: 20px;
+}
+
+.content4{
+    text-align: center;
+}
+.content4 h1,.content4 h4,.content4 p,.content4 i{
+    padding-top: 20px;
+}
+.content4 h1{
+    color: var(--color);
+}
+.content4 p{
+    color: coral;
+}
+.person{
+    font-size: 37px;
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 50%;
+    background-color: silver;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.person:hover{
+    background-color: coral;
+    border: 2px solid coral;
+}
+.pe{
+    display: inline-block;
+    text-align: center;
+}
+.pe:hover{
+    border-bottom: 5px solid coral;
+}
+
+
+hr{
+    color: white;
+}
+.pro1{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+.pro1 img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+.f1,.f2,.f3,.f4{
+    width: 250px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.footer p{
+    color: white;
+}
+.footer h4{
+    color: coral;
+}
+.pro1 i{
+    color: cornflowerblue;
+    font-size: 30px;
+}
+.ii{
+    margin-right: 20px;
+}
+
+.footer .container{
+    display: flex;
+}
+.footer label{
+    color: white;
+}
+.submt{
+    background-color:cornflowerblue;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact h3{
+    color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+form span{
+    color: red;
+}
+.num{
+    border: 1px solid;
+    width: 100px;
+}
+.contact1{
+    width: 450px;
+}
+.icons{
+    background-color: rgb(141, 139, 139);
+    color: white;
+    width: 50px;
+    font-size: 25px;
+}
+.icons i{
+    padding-bottom: 27px;
+}
+.social{
+    display: flex;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.conact2{
+    width: 450px;
+}
+.social span{
+    color: cornflowerblue;
+}
+.pra{
+    padding-top: 5px;
+}
+.social p{
+    padding-left: 10px;
+}
+.fa-phone{
+    padding-top: 10px;
+}
+iframe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.follow i{
+    padding-left: 20px;
+    font-size: 40px;
+    color: cornflowerblue;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 40px;
+}
+textarea{
+    width: 300px;
+    height: 250px;
+}
+form{
+    text-align: left;
+}
